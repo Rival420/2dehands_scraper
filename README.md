@@ -7,6 +7,6 @@ python script to scrape 2dehands.be for articles and send over to a discord webh
 - change url to your specific page on 2dehands.be you want to scrape
 
 usage:
-```python
+```bash
 python3 scraper.py --min-price 100 --max-price 1000
 ```
