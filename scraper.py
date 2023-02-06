@@ -10,7 +10,7 @@ parser.add_argument('--min-price', dest="min_price", type=float, help='minimum p
 parser.add_argument('--max-price', dest="max_price", type=float, help='maximum price')
 args = parser.parse_args()
 
-servers = ["Dell PowerEdge", "HP Proliant", "Lenovo ThinkServer"]
+servers = ["Dell PowerEdge", "HP Proliant", "Lenovo ThinkServer", "IBM System"]
 url = "https://www.2dehands.be/l/computers-en-software/servers"
 discord_webhook_url = '<DISCORD WEBHOOK URL HERE>'
 webhook = SyncWebhook.from_url(discord_webhook_url)
